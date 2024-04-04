@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  padding: 0; 
+  margin: 0;
+}
+
+body {
+  background-color: hsl(180, 52%, 96%);
+}
+
+@font-face {
+  font-family: "SpartanMed";
+  src: url(./assets//fonts/LeagueSpartan-Medium.ttf);
+}
+@font-face {
+  font-family: "SpartanBold";
+  src: url(./assets//fonts/LeagueSpartan-Bold.ttf);
+}
